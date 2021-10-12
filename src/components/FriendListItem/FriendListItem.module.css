@@ -7,8 +7,7 @@
   border-radius: 10px;
 }
 
-.online,
-.offline {
+.status {
   display: block;
   width: 10px;
   height: 10px;
@@ -16,10 +15,12 @@
 }
 
 .online {
+  composes: status;
   background-color: green;
 }
 
 .offline {
+  composes: status;
   background-color: red;
 }
 
