@@ -1,0 +1,41 @@
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transactions {
+  background-color: rgb(139, 241, 255);
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.transactionHistory {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  border: 1px solid #000;
+}
+
+.tableHead th {
+  background-color: rgb(44, 184, 240);
+}
+
+th,
+td {
+  border: 1px solid #000;
+}
+
+td:not(:first-child) {
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(155, 189, 228);
+}

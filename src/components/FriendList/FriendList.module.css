@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.friends {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.friendList {
+  background-color: rgb(233, 232, 185);
+  padding: 5px;
+}
